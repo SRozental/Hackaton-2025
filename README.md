@@ -8,15 +8,16 @@
 ```bash
 ## Структура репозитория
 ├── Data/ # Исходные и обработанные данные
+|
 ├── notebooks/ # Jupyter Notebooks с анализом и моделированием
 │ ├── EDA.ipynb # Разведочный анализ данных
 │ ├── feature_engineering.ipynb # Генерация признаков, обучение модели Random Forest
+| ├── Customers distribution maps.ipynb
+| ├── geography.ipynb # Анализ географии пользователей
 │ └── reviews.py # Анализ рейтингов
-| └── geography.ipynb # Анализ географии пользователей
 | └── Customers distribution maps.ipynb #Построение карт распределения пользователей
-├── pictures/ # картинки с результатами
-│ └── random_forest.pkl # Обученная модель Random Forest
-├── reports/ # Отчеты и визуализации
+|
+├── results/ # результаты
 │ ├── presentation.pdf # Презентация
 └── README.md # Этот файл
 ```
